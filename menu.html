@@ -3,33 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Vite & Gourmand - Notre Menu</title>
+    <link rel="stylesheet" href="CSS-Accueil.css">
 </head>
 <body>
-    <a href="Index.html">Retour a l'Accueil</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="mentions.html">Mentions Légales</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="commande">
-        <h2>Passer une commande</h2>
-        <form action="#" method="post">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required><br><br>
+    <main>
+        <h1>Notre Menu</h1>
+        <p>Découvrez les créations de Julie et José.</p>
 
-            <label for="prenom">Prénom :</label>
-            <input type="text" id="prenom" name="prenom" required><br><br>
+        <section id="liste-menu">
+            <h2>Les Formules</h2>
+            <ul>
+                <li><strong>Menu Gourmand (25€) :</strong> Entrée + Plat + Dessert</li>
+                <li><strong>Menu Vite (18€) :</strong> Plat + Dessert</li>
+                <li><strong>Menu Enfant (12€) :</strong> Jusqu'à 12 ans</li>
+            </ul>
+        </section>
 
-            <label for="email">E-mail :</label>
-            <input type="email" id="email" name="email" required><br><br>
+        <section id="commande">
+            <h2>Passer une commande</h2>
+            <form action="#" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
 
-            <label for="menu">Choix du menu :</label>
-            <select id="menu" name="menu" required>
-                <option value="menu1">Menu 1</option>
-                <option value="menu2">Menu 2</option>
-                <option value="menu3">Menu 3</option>
-            </select><br><br>
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
 
-            <input type="submit" value="Commander">
-        </form>
+                <label for="choix-menu">Votre choix :</label>
+                <select id="choix-menu" name="menu">
+                    <option value="gourmand">Menu Gourmand</option>
+                    <option value="vite">Menu Vite</option>
+                    <option value="enfant">Menu Enfant</option>
+                </select>
 
+                <button type="submit">Commander</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; 2026 Vite & Gourmand - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
-
