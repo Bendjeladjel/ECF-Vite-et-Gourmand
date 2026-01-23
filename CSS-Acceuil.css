@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(125, 84, 84, 0); /* Juste pour tester ! */
+}
+
+/* Supprime les marges par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 2.0;
+    background-color: #f4f4f4; /* Un gris très clair, plus doux */
+    color: #000000;
+}
+
+header {
+    background-color: #2c3e50; /* Un bleu foncé élégant */
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex; /* Aligne les liens horizontalement */
+    justify-content: center; /* Les centre dans la page */
+    list-style: none; /* Enlève les points de la liste */
+}
+
+nav ul li {
+    margin: 0 20px; /* Espace les liens entre eux */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Enlève le souligné bleu */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e67e22; /* Change de couleur quand on passe la souris dessus */
+}
+
+body {
+    text-align: center;
+}
