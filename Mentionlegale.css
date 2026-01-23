@@ -1,0 +1,9 @@
+.legal-content {
+    padding: 50px 10%;
+    line-height: 1.6;
+}
+.legal-content h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+    border-bottom: 2px solid #e67e22;
+}
