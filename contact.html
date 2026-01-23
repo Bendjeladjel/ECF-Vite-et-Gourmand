@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
     <title>Contact - Vite & Gourmand</title>
-    <link rel="stylesheet" href="CSS-Acceuil.css">
+    <link rel="stylesheet" href="CSS-Accueil.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="Index.html">Accueil</a></li>
-                <li><a href="Menu.html">Menu</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="mentions.html">Mentions Légales</a></li>
             </ul>
         </nav>
     </header>
@@ -29,21 +23,27 @@
         <p>Une question pour Julie ou José ? Un devis pour un événement ?</p>
 
         <form action="#" method="post">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required>
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
 
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
 
-            <button type="submit">Envoyer</button>
+            <button type="submit">Envoyer le message</button>
         </form>
     </main>
 
-    </body>
-</html>
+    <footer>
+        <p class="copyright">&copy; 2026 Vite & Gourmand - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
-
