@@ -1,47 +1,91 @@
-body {
-    background-color: rgba(125, 84, 84, 0); /* Juste pour tester ! */
-}
-
-/* Supprime les marges par défaut du navigateur */
+/* 1. Reset : Supprime les marges par défaut */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* 2. Style global du corps de la page */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 2.0;
-    background-color: #f4f4f4; /* Un gris très clair, plus doux */
+    line-height: 1.8; /* Légèrement réduit pour plus de lisibilité */
+    background-color: #f4f4f4; 
     color: #000000;
+    text-align: center;
 }
 
+/* 3. En-tête et Navigation */
 header {
-    background-color: #2c3e50; /* Un bleu foncé élégant */
-    color: rgb(0, 0, 0);
+    background-color: #2c3e50; /* Bleu foncé élégant */
     padding: 1rem 0;
 }
 
 nav ul {
-    display: flex; /* Aligne les liens horizontalement */
-    justify-content: center; /* Les centre dans la page */
-    list-style: none; /* Enlève les points de la liste */
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 nav ul li {
-    margin: 0 20px; /* Espace les liens entre eux */
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none; /* Enlève le souligné bleu */
+    color: #ffffff; /* Changé en blanc pour contraster avec le bleu foncé */
+    text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #e67e22; /* Change de couleur quand on passe la souris dessus */
+    color: #e67e22; /* Orange au survol */
 }
 
-body {
-    text-align: center;
+/* 4. Style spécifique pour les formulaires (Menu et Contact) */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    text-align: left; /* Aligne le texte du formulaire à gauche pour la clarté */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button, input[type="submit"] {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* 5. Style pour la page Mentions Légales */
+.legal-content {
+    padding: 50px 10%;
+    line-height: 1.6;
+    text-align: left; /* Les textes juridiques sont plus lisibles alignés à gauche */
+}
+
+.legal-content h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+}
+
+/* 6. Footer */
+footer {
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 50px;
 }
