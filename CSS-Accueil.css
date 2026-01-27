@@ -68,6 +68,14 @@ button, input[type="submit"] {
     font-weight: bold;
 }
 
+/* Ajoute ceci dans ton fichier CSS-Accueil.css */
+.card-content img {
+    width: 100%;       /* L'image prend toute la largeur de la carte */
+    height: 200px;     /* On fixe une hauteur commune */
+    object-fit: cover; /* L'image est recadrée proprement sans être déformée */
+    border-radius: 4px;
+}
+
 /* 5. Style pour la page Mentions Légales */
 .legal-content {
     padding: 50px 10%;
@@ -89,3 +97,4 @@ footer {
     color: white;
     margin-top: 50px;
 }
+
