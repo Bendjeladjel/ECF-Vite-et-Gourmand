@@ -14,6 +14,14 @@ body {
     text-align: center;
 }
 
+/* On cible les images qui sont dans tes cartes de menu */
+.card-menu img {
+    width: 100%;        /* L'image prend toute la largeur de sa carte */
+    height: 200px;      /* On fixe une hauteur égale pour toutes les images */
+    object-fit: cover;  /* TRÈS IMPORTANT : recadre l'image proprement sans l'écraser */
+    border-radius: 8px 8px 0 0; /* Arrondi seulement le haut de l'image */
+}
+
 /* 3. En-tête et Navigation */
 header {
     background-color: #2c3e50; /* Bleu foncé élégant */
@@ -97,4 +105,5 @@ footer {
     color: white;
     margin-top: 50px;
 }
+
 
