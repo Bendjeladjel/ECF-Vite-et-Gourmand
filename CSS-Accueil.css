@@ -14,6 +14,19 @@ body {
     text-align: center;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    color: #000000;
+    text-align: center;
+    
+    /* Ajout de l'image de fond */
+    background-image: url("fond.jpg"); /* Remplace par le nom de ton fichier */
+    background-attachment: fixed;      /* L'image reste fixe quand on scrolle */
+    background-size: cover;            /* L'image couvre tout l'écran sans se déformer */
+    background-position: center;       /* Centre l'image */
+}
+
 /* La grille qui contient toutes les cartes */
 .menu-grid {
     display: grid;
@@ -129,6 +142,7 @@ footer {
     color: white;
     margin-top: 50px;
 }
+
 
 
 
