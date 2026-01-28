@@ -14,12 +14,21 @@ body {
     text-align: center;
 }
 
-/* On cible les images qui sont dans tes cartes de menu */
+/* La CARTE (le contenant blanc) */
 .card-menu {
-    width: 100%;        /* L'image prend toute la largeur de sa carte */
-    height: 200px;      /* On fixe une hauteur égale pour toutes les images */
-    object-fit: cover;  /* TRÈS IMPORTANT : recadre l'image proprement sans l'écraser */
-    border-radius: 8px 8px 0 0; /* Arrondi seulement le haut de l'image */
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden; /* Pour que l'image ne dépasse pas des bords arrondis */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Petit effet d'ombre pro */
+}
+
+/* L'IMAGE à l'intérieur de la carte */
+.card-menu img {
+    width: 100%;        /* Elle prend toute la largeur */
+    height: 200px;      /* Elle s'arrête à 200px de haut */
+    object-fit: cover;  /* Elle se recadre proprement */
+    display: block;     /* Supprime les espaces vides sous l'image */
 }
 
 /* 3. En-tête et Navigation */
@@ -105,6 +114,7 @@ footer {
     color: white;
     margin-top: 50px;
 }
+
 
 
 
