@@ -14,6 +14,21 @@ body {
     text-align: center;
 }
 
+/* La grille qui contient toutes les cartes */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes égales */
+    gap: 20px; /* Ajoute de l'espace entre les menus */
+    padding: 20px;
+}
+
+/* On s'assure que les images ne déforment plus les cartes */
+.card-menu img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Coupe l'image proprement sans l'étirer */
+}
+
 /* La CARTE (le contenant blanc) */
 .card-menu {
     background-color: white;
@@ -114,6 +129,7 @@ footer {
     color: white;
     margin-top: 50px;
 }
+
 
 
 
