@@ -119,6 +119,7 @@ button, input[type="submit"] {
     height: 200px;     /* On fixe une hauteur commune */
     object-fit: cover; /* L'image est recadrée proprement sans être déformée */
     border-radius: 4px;
+    color: #000000;
 }
 
 /* 5. Style pour la page Mentions Légales */
@@ -162,6 +163,7 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
 }
+
 
 
 
