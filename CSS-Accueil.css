@@ -92,7 +92,8 @@ form {
     padding: 20px;
     background: white;
     border-radius: 8px;
-    text-align: left; /* Aligne le texte du formulaire à gauche pour la clarté */
+    text-align: left; 
+    color: #e67e22;/* Aligne le texte du formulaire à gauche pour la clarté */
 }
 
 input, select, textarea {
@@ -163,6 +164,7 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
 }
+
 
 
 
