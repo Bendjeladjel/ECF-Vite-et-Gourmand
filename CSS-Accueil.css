@@ -21,7 +21,7 @@ body {
     text-align: center;
     
     /* Ajout de l'image de fond */
-    background-image: url("Fond.jpg"); /* Remplace par le nom de ton fichier */
+    background-image: url("Fond.jpeg"); /* Remplace par le nom de ton fichier */
     background-attachment: fixed;      /* L'image reste fixe quand on scrolle */
     background-size: cover;            /* L'image couvre tout l'écran sans se déformer */
     background-position: center;       /* Centre l'image */
@@ -44,7 +44,7 @@ body {
 
 /* La CARTE (le contenant blanc) */
 .card-menu {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 8px;
     overflow: hidden; /* Pour que l'image ne dépasse pas des bords arrondis */
     margin-bottom: 20px;
@@ -164,6 +164,7 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
 }
+
 
 
 
