@@ -148,7 +148,8 @@ footer {
 
 /* Cible tous les textes importants pour les mettre en blanc */
 body, h1, h2, h3, p, li {
-    color: #ffffff !important; /* Le !important force le blanc si une autre règle bloque */
+    color: #ffffff !important; 
+    form label { color: #000000 !important; }
 }
 
 /* Pour les liens de ton menu de navigation */
@@ -164,6 +165,7 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
 }
+
 
 
 
