@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions Légales - Vite & Gourmand</title>
+    <link rel="stylesheet" href="CSS-Accueil.css">
+</head>
+<body>
+<?php include 'header.php'; ?>
+
+    <main class="legal-content">
+        <h1>Mentions légales et politique de confidentialité</h1>
+
+        <p>L'entreprise individuelle <strong>Vite & Gourmand</strong>, soucieuse des droits des individus...</p>
+        
+        <p>Pour toute information complémentaire : <a href="https://www.cnil.fr/" target="_blank">https://www.cnil.fr/</a>.</p>
+
+                <section>
+            <h2>Article 1 - Mentions légales</h2>
+            <p><strong>1.1 Site :</strong> Vite&Gourmand</p>
+            <p><strong>1.2 Éditeur :</strong> L'entreprise individuelle Vite&Gourmand située au 12 rue de la Gourmandise, 33000 Bordeaux, immatriculée au RCS de 648 223 352 04269.<br>
+            Téléphone : 0605821575 | Email : wail.bendjeladjel@gmail.com.</p>
+            <p><strong>1.3 Hébergeur :</strong> Le site est hébergé par GitHub Pages, dont le siège social est situé 2 rue de la Gourmandise, Bordeaux 33000.</p>
+        </section>
+
+        <section>
+            <h2>Article 2 - Accès au site</h2>
+            <p>L'accès au site et son utilisation sont réservés à un usage strictement personnel. Vous vous engagez à ne pas utiliser ce site à des fins commerciales, politiques ou publicitaires.</p>
+        </section>
+
+        <section>
+            <h2>Article 3 - Contenu du site</h2>
+            <p>Toutes les marques, photographies, textes et illustrations sont protégés par les lois en vigueur au titre de la propriété intellectuelle. Ils sont la propriété pleine et entière de l'éditeur ou de ses partenaires.</p>
+        </section>
+
+        <section>
+            <h2>Article 4 - Gestion du site</h2>
+            <p>L'éditeur pourra à tout moment suspendre, interrompre ou limiter l'accès à tout ou partie du site pour procéder à des mises à jour ou en perturber le fonctionnement.</p>
+        </section>
+
+        <section>
+            <h2>Article 5 - Responsabilités</h2>
+            <p>La responsabilité de l'éditeur ne peut être engagée en cas de défaillance, panne ou interruption de fonctionnement empêchant l'accès au site.</p>
+        </section>
+
+        <section>
+            <h2>Article 6 - Liens hypertextes</h2>
+            <p>La mise en place de liens hypertextes vers le site est strictement interdite sans autorisation préalable de l'éditeur.</p>
+        </section>
+
+        <section>
+            <h2>Article 7 - Collecte et protection des données</h2>
+            <p>Les données personnelles collectées sont principalement utilisées pour la gestion des relations avec vous et le traitement des commandes (Nom, prénom, adresse, email, téléphone, données financières).</p>
+        </section>
+
+        <section>
+            <h2>Article 8 - Droit d'accès et de rectification</h2>
+            <p>Vous disposez d'un droit d'accès, de rectification et de suppression de vos données en écrivant à : wail.bendjeladjel@gmail.com.</p>
+        </section>
+
+        <section>
+            <h2>Article 9 - Utilisation des données</h2>
+            <p>Les données sont utilisées pour l'accès à la plateforme, l'assistance, la personnalisation des services et la prévention des fraudes.</p>
+        </section>
+
+        <section>
+            <h2>Article 10 - Politique de conservation des données</h2>
+            <p>La plateforme conserve vos données pour la durée nécessaire à la fourniture de ses services.</p>
+        </section>
+
+        <section>
+            <h2>Article 11 - Partage des données avec des tiers</h2>
+            <p>Les données peuvent être partagées avec des tiers (paiement, prestataires) exclusivement dans l'Union européenne.</p>
+        </section>
+
+        <section>
+            <h2>Article 12 - Offres commerciales</h2>
+            <p>Si vous ne souhaitez pas recevoir d'offres commerciales, vous pouvez vous désinscrire via l'email de l'éditeur.</p>
+        </section>
+
+        <section>
+            <h2>Article 13 - Cookies</h2>
+            <p>Le site utilise des traceurs (Google Analytics, Adsense, etc.) pour une durée de 13 mois.</p>
+        </section>
+
+        <section>
+            <h2>Article 14 - Photographies des produits</h2>
+            <p>Les photographies accompagnant les descriptions ne sont pas contractuelles.</p>
+        </section>
+
+        <section>
+            <h2>Article 15 - Loi applicable</h2>
+            <p>Les présentes conditions sont régies par la loi française.</p>
+        </section>
+
+        <section>
+            <h2>Article 16 - Contactez-nous</h2>
+            <p>Pour toute question, contactez-nous à : wail.bendjeladjel@gmail.com.</p>
+        </section>
+
+        </main>
+
+     <?php include 'footer.php'; ?>
+</body>
+</html>
+
+
+
+

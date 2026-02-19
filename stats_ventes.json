@@ -1,0 +1,22 @@
+{
+    "date_export": "2026-02-19 20:39:39",
+    "restaurant": "Vite & Gourmand",
+    "statistiques": [
+        {
+            "statut": "termin\u00e9e",
+            "nombre": 4,
+            "CA": "1092.00"
+        },
+        {
+            "statut": "annul\u00e9",
+            "nombre": 38,
+            "CA": "5618.70"
+        },
+        {
+            "statut": "en attente",
+            "nombre": 2,
+            "CA": "220.00"
+        }
+    ],
+    "code_agent": "7624"
+}
