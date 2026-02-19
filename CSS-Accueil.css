@@ -1,0 +1,214 @@
+/* ==========================================
+   1. RESET & BASE
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    text-align: center;
+    color: #ffffff; /* Couleur de base pour le fond sombre */
+    background-image: url("img/Fond.jpeg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+}
+
+/* On enlève le !important ici pour laisser le panier avoir ses propres couleurs */
+h1, h2, h3, p, li {
+    color: #ffffff; 
+}
+
+/* ==========================================
+   2. GRILLE & CARTES DU MENU
+   ========================================== */
+.menu-grid, .grille-menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-menu, .carte-menu {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    overflow: hidden; 
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-menu img, .carte-menu img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important; 
+    display: block;
+}
+
+/* ==========================================
+   3. NAVIGATION & HEADER
+   ========================================== */
+header {
+    background-color: rgba(44, 62, 80, 0.9);
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e67e22;
+}
+
+/* ==========================================
+   4. LE PANIER (LA CARTE BLANCHE)
+   ========================================== */
+.panier-card {
+    background: white !important; /* Force le fond blanc */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 750px;
+    margin: 40px auto;
+    color: #333333 !important; /* Force tout le texte interne en sombre */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
+/* Correction du Total invisible */
+.panier-card h1, .panier-card h2, .panier-card h3, .panier-card p {
+    color: #333333 !important; 
+}
+
+.total-panier {
+    border-top: 2px solid #eee;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333 !important;
+}
+
+/* Inputs de quantité */
+.input-qte {
+    color: #000000 !important; 
+    background-color: #ffffff !important;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* ==========================================
+   5. MESSAGES & BOUTONS
+   ========================================== */
+.message-erreur {
+    background-color: #ffebee;
+    color: #c62828 !important;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ef9a9a;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button, .btn-commande {
+    background-color: #27ae60;
+    color: white !important;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Footer */
+footer {
+    padding: 30px;
+    background-color: rgba(44, 62, 80, 0.9);
+    margin-top: auto; /* Aide pour le sticky footer */
+}
+
+/* Style pour les liens dans le header */
+nav a {
+    text-decoration: none; /* Enlève le soulignement */
+    color: #ffffff;        /* Force le blanc (fini le violet !) */
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Style quand on survole le lien (Hover) */
+nav a:hover {
+    color: #27ae60;        /* Devient vert au survol pour rappeler le logo */
+    background-color: rgba(255, 255, 255, 0.1); /* Petit fond léger */
+    border-radius: 5px;
+}
+
+/* Pour empêcher le violet des liens visités */
+nav a:visited {
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #1a1a1a; /* Un gris très foncé presque noir */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #3498db; /* Un bleu clair pour le lien */
+    text-decoration: underline;
+}
+
+.footer a:visited {
+    color: #3498db; /* On évite le violet ! */
+}
+
+/* Style pour le sommaire de l'accueil */
+main nav ul li a {
+    color: #3498db; /* Un bleu ciel qui ressort sur le sombre */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main nav ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main nav ul li a:visited {
+    color: #3498db; /* On bloque le violet ici aussi ! */
+}
