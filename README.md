@@ -66,4 +66,4 @@ Employez : e-mail : julie@vite-gourmand.fr / mdp : vitegourmand
 Administrateur : jose@vite-gourmand.fr / vitegourmand2
 
 
-Client : client@test.fr / Client7624!.
+
